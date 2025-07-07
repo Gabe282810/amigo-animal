@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigo Animal</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #4CAF50; color: white; padding: 20px 0; text-align: center; }
+    nav { background: #388E3C; text-align: center; padding: 10px 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; max-width: 900px; margin: auto; }
+    footer { background: #f1f1f1; text-align: center; padding: 15px 0; margin-top: 30px; }
+    .highlight { color: #4CAF50; font-weight: bold; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; margin-bottom: 5px; }
+    input, textarea { width: 100%; padding: 10px; }
+    button { background: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    button:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ONG Amigo Animal</h1>
+    <p>Cuidando de quem precisa de um lar</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#adocao">Adoção</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Amigo Animal é uma ONG dedicada ao resgate, cuidado e adoção de animais abandonados. Nosso objetivo é proporcionar uma nova chance para cães e gatos que foram vítimas de abandono e maus-tratos.</p>
+  </section>
+
+  <section id="adocao">
+    <h2>Animais para Adoção</h2>
+    <p>Conheça alguns dos nossos animais disponíveis para adoção:</p>
+    <ul>
+      <li><span class="highlight">Luna</span> – Filhote de porte pequeno, muito carinhosa e brincalhona.</li>
+      <li><span class="highlight">Thor</span> – Adulto de porte médio, vacinado e adestrado.</li>
+      <li><span class="highlight">Mimi</span> – Gata adulta, muito dócil e acostumada com crianças.</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amigo Animal - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
